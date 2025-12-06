@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Nest build output
+dist/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Node modules
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# MacOS files
+.DS_Store
+
+# Editor/IDE directories
+.vscode/
+.idea/
+
+# Local data
+last.json
+
+# Logs created by pm2 or nodemon
+pids/
+pms/logs/
+dump.rdb
+
+# Swagger JSON (generate-save yapıyorsan)
+swagger.json
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Lock files (tercihen bir tane bırak, diğerlerini ignore edebilirsin)
+pnpm-lock.yaml
+yarn.lock
