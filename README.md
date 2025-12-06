@@ -1,6 +1,6 @@
 # Mubep Announcement Watcher (NestJS)
 
-This project monitors the **MUBEP (Muş Belediyesi Personel A.Ş.)** website for new personnel recruitment announcements. When a new announcement is published, the service automatically detects it and sends a notification via Telegram.
+This project monitors the **MUBEP (Muğla Belediyesi Personel A.Ş.)** website for new personnel recruitment announcements. When a new announcement is published, the service automatically detects it and sends a notification via Telegram.
 
 The service is built using NestJS, Cron Jobs, Axios, and Cheerio. It periodically checks the page for changes, stores the last detected announcement locally, and triggers notifications when updates occur. A manual API endpoint is also available for on-demand checks.
 
